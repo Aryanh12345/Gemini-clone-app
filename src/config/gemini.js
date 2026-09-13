@@ -8,15 +8,7 @@ async function main(prompt) {
     try {
         const interaction = await client.interactions.create({
             model: "gemini-3.5-flash-lite",
-
             input: prompt,
-
-            tools: [
-                {
-                    type: "google_search",
-                },
-            ],
-
             generation_config: {
                 max_output_tokens: 2048,
                 thinking_level: "minimal",
