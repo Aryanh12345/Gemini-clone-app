@@ -1,39 +1,16 @@
-# Gemini AI Clone
+# React + Vite
 
-A modern Gemini-inspired AI chatbot built with React.js and the Google Gemini API.  
-It features AI conversations, recent prompts, Google Search integration, and a clean responsive interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌐 Live Demo
+Currently, two official plugins are available:
 
-[Open Gemini AI Clone](http://localhost:5173/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 📸 Preview
+## React Compiler
 
-![Gemini AI Clone Preview](./preview.png)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ✨ Features
+## Expanding the ESLint configuration
 
-- 🤖 Google Gemini AI integration
-- 🔎 Google Search integration
-- 💬 AI chat interface
-- ⌨️ Press Enter to send messages
-- 📝 Recent prompt history
-- 🎨 Gemini-inspired user interface
-- 📱 Responsive design
-- ⚡ Built with React and Vite
-
-## 🛠️ Technologies
-
-- React.js
-- JavaScript
-- CSS
-- Vite
-- Google Gemini API
-- `@google/genai`
-
-## 🚀 Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
